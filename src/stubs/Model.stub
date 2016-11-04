@@ -1,0 +1,12 @@
+<?php
+
+namespace {{vendor}};
+
+class {{className}}
+{
+{{#properties}}
+
+    public ${{name}};
+
+{{/properties}}
+}
