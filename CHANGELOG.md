@@ -1,6 +1,6 @@
 # Changelog
 
-All Notable changes to `faustbrian/:package_name` will be documented in this file.
+All Notable changes to `faustbrian/jsonmapper-model-generator` will be documented in this file.
 
 ## NEXT - YYYY-MM-DD
 
