@@ -20,7 +20,7 @@ class TypeGetter
      *
      * @return string
      */
-    public static function get($data)
+    public static function get($data): string
     {
         if (is_object($data)) {
             $type = get_class($data);
@@ -42,7 +42,7 @@ class TypeGetter
      *
      * @return bool
      */
-    private static function isDateTime($data)
+    private static function isDateTime($data): bool
     {
         if (!is_string($data)) {
             return false;

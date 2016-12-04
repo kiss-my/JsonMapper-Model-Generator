@@ -30,7 +30,7 @@ class Context
     /**
      * @return mixed
      */
-    public function vendor()
+    public function vendor(): string
     {
         return $this->properties->get('namespace');
     }
@@ -38,7 +38,7 @@ class Context
     /**
      * @return mixed
      */
-    public function className()
+    public function className(): string
     {
         return $this->properties->get('className');
     }
@@ -46,7 +46,7 @@ class Context
     /**
      * @return mixed
      */
-    public function properties()
+    public function properties(): array
     {
         return $this->properties->get('properties');
     }

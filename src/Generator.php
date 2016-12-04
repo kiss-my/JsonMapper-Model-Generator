@@ -19,14 +19,21 @@ class Generator
      * @var
      */
     private $namespace;
+
     /**
      * @var
      */
     private $class;
+
     /**
      * @var
      */
     private $data;
+
+    /**
+     * @var
+     */
+    private $overrides;
 
     /**
      * Generator constructor.
@@ -36,7 +43,7 @@ class Generator
      * @param $data
      * @param array $overrides
      */
-    public function __construct($namespace, $class, $data, $overrides = [])
+    public function __construct(string $namespace, string $class, array $data, array $overrides = [])
     {
         $this->namespace = $namespace;
         $this->class = $class;
@@ -47,7 +54,7 @@ class Generator
     /**
      * @return string
      */
-    public function output()
+    public function output(): string
     {
         $result = [];
 
@@ -72,7 +79,7 @@ class Generator
      *
      * @return string
      */
-    protected function compile($stub, $data)
+    protected function compile($stub, $data): string
     {
         return (new \Mustache_Engine())->render(
             file_get_contents(__DIR__.'/stubs/Model.stub'), new Context($data)
