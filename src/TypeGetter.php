@@ -42,7 +42,7 @@ class TypeGetter
      */
     private static function isDateTime($data): bool
     {
-        if (!is_string($data)) {
+        if (! is_string($data)) {
             return false;
         }
 
