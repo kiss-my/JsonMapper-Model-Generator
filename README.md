@@ -1,5 +1,10 @@
 # JsonMapper Model Generator
 
+[![Build Status](https://img.shields.io/travis/faustbrian/JsonMapper-Model-Generator/master.svg?style=flat-square)](https://travis-ci.org/faustbrian/JsonMapper-Model-Generator)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/faustbrian/jsonmapper-model-generator.svg?style=flat-square)]()
+[![Latest Version](https://img.shields.io/github/release/faustbrian/JsonMapper-Model-Generator.svg?style=flat-square)](https://github.com/faustbrian/JsonMapper-Model-Generator/releases)
+[![License](https://img.shields.io/packagist/l/faustbrian/JsonMapper-Model-Generator.svg?style=flat-square)](https://packagist.org/packages/faustbrian/JsonMapper-Model-Generator)
+
 ## Installation
 
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
@@ -36,7 +41,7 @@ $ phpunit
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to Brian Faust at hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
